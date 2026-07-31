@@ -1,2 +1,21 @@
 Thumbs.db
 .DS_Store
+
+# Prevent accidental publication of private app data and release files.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.csv
+*.zip
+*.exe
+*.dll
+*.pdb
+*.pri
+*.msix
+*.msixbundle
+*.pfx
+*.cer
+bin/
+obj/
+artifacts/
