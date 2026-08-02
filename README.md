@@ -23,6 +23,7 @@ These are captures from the running native WinUI application. They use the built
 - income, expenses, savings, refunds, and transfers, all editable after entry
 - PC-local day tracking, today-first entry, and editable dates for backdating
 - recurring monthly income with a payday and automatic, duplicate-safe deposits
+- individual posted income deposits can be edited or deleted without changing the future monthly schedule
 - automatic carry-forward from every earlier month's cash activity
 - dedicated Salary and Other income categories instead of uncategorized income
 - category-level monthly plans and over-budget warnings
@@ -45,7 +46,7 @@ These are captures from the running native WinUI application. They use the built
 |---|---|
 | Overview | Automatic carry-forward, recurring income, planned money, spending, savings, and available cash shown separately |
 | Plan | Category-level monthly allocations and clear over-budget feedback |
-| Transactions | PC-local daily entry, backdating, editing, income categories, and goal/investment destinations |
+| Transactions | PC-local daily entry, backdating, editing, income categories, goal/investment destinations, and per-month control of posted recurring income |
 | Bills | Editable recurring commitments, next-due countdowns, and month-end date handling |
 | Goals | Savings targets whose progress stays synchronized with linked transactions |
 | Investments | Tabung Haji, ASB, Maybank Gold, custom holdings, contributions, valuations, and gain/loss |
@@ -80,7 +81,7 @@ Prospective employers and serious reviewers can request a guided code walkthroug
 
 ## Verification
 
-- 101 automated tests passed: 65 budget/domain tests and 36 SQLite/schema/CSV tests
+- 105 automated tests passed: 65 budget/domain tests and 40 SQLite/schema/CSV tests
 - Release x64 build completed with zero warnings and zero errors
 - all eight native app areas initialize in the self-contained Windows build
 - a copied version-one database upgraded successfully before the live database was backed up and migrated
