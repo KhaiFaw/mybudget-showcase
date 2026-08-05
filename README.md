@@ -4,6 +4,8 @@
   <img src="assets/app-icon.png" alt="MyBudget app icon" width="88" />
 </p>
 
+<p align="center"><strong>Personal Finance and Budget Analytics Application</strong></p>
+
 This standalone showcase has been consolidated into the main MyBudget repository so the source, documentation, releases, and project history now live together in one place.
 
 ## Continue to MyBudget
@@ -24,6 +26,6 @@ MyBudget is a modern, local-first Windows desktop budget planner built with C#, 
 
 This repository remains online as a lightweight archive for existing links. New releases, issues, documentation, and development activity belong in **[KhaiFaw/mybudget-windows](https://github.com/KhaiFaw/mybudget-windows)**.
 
-## Copyright
+## License and use
 
-Copyright (c) 2026 KhaiFaw. All rights reserved. See [COPYRIGHT.md](COPYRIGHT.md).
+MyBudget is free for personal and other non-commercial use under the [PolyForm Strict License 1.0.0](https://github.com/KhaiFaw/mybudget-windows/blob/main/LICENSE.md). Modification, redistribution, republication, selling, and monetization require prior written permission. See the canonical project's [plain-language permission summary](https://github.com/KhaiFaw/mybudget-windows/blob/main/COPYRIGHT.md).
